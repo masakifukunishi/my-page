@@ -1,0 +1,79 @@
+body {
+  font-family: "Nunito", "Hiragino Kaku Gothic Pro", "Meiryo", sans-serif;
+  background-color: #ebebebd0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+html,
+h1,
+h2,
+p {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  padding: 14px;
+  max-width: 660px;
+  margin: auto;
+}
+.profile {
+  text-align: center;
+}
+.profile-name {
+  margin-top: 56px;
+  margin-bottom: 20px;
+  font-size: 38px;
+}
+.profile .photo {
+  display: inline-block;
+  border-radius: 50%;
+  width: 12rem;
+}
+.profile .description-wrapper {
+  margin-top: 18px;
+  margin-bottom: 48px;
+}
+.description {
+  font-size: 21px;
+}
+.column-header {
+  font-size: 28px;
+  margin-top: 52px;
+  margin-bottom: 20px;
+}
+.social {
+  display: flex;
+  flex-wrap: wrap;
+}
+.social-wrapper {
+  display: block;
+  margin-right: 14px;
+}
+.social-link {
+  display: inline-flex;
+  align-items: center;
+}
+.social-link:hover {
+  opacity: 0.6;
+}
+.social-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 7px;
+}
+.social-image-img {
+  width: 26px;
+}
+.social-text {
+  color: black;
+  font-weight: bold;
+  font-size: 23px;
+  margin-top: auto;
+}
+footer {
+  margin-top: 42px;
+  text-align: center;
+}
