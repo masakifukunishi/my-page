@@ -11,6 +11,14 @@
   background-color: white;
   margin-bottom: 39px;
 }
+@media screen and (max-width: 490px) {
+  .card-wrapper {
+    justify-content: center;
+  }
+  .card {
+    width: 95%;
+  }
+}
 .card:hover {
   border-radius: 7px;
   background: rgb(75, 75, 75);
