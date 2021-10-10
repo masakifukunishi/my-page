@@ -1,6 +1,6 @@
 # [Masaki Fukunishi](https://masakifukunishi.site/)
 
-This is my self-introduction page.
+My personal portfolio.
 
 ## :hammer_and_wrench: Stack
 
