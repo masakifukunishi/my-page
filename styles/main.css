@@ -41,7 +41,12 @@ p {
 .column-header {
   font-size: 28px;
   margin-top: 52px;
-  margin-bottom: 20px;
+  margin-bottom: 18px;
+}
+.column-header2 {
+  font-size: 23px;
+  margin-top: 26px;
+  margin-bottom: 10px;
 }
 .social {
   display: flex;
