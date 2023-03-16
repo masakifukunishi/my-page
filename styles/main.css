@@ -18,18 +18,16 @@ p {
   max-width: 660px;
   margin: auto;
 }
+.emojis {
+  margin-top: 60px;
+  margin-bottom: 10px;
+  font-size: 44px;
+}
 .profile {
   text-align: center;
 }
 .profile-name {
-  margin-top: 56px;
-  margin-bottom: 20px;
   font-size: 38px;
-}
-.profile .photo {
-  display: inline-block;
-  border-radius: 50%;
-  width: 12rem;
 }
 .profile .description-wrapper {
   margin-top: 18px;
