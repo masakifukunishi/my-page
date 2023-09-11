@@ -1,7 +1,9 @@
-export default function Home() {
+const About = () => {
   return (
     <main className="">
-      <div>About</div>
+      <div>Masaki Fukunishi</div>
     </main>
   );
-}
+};
+
+export default About;
