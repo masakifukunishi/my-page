@@ -4,8 +4,8 @@ const Header = () => {
     <main className="">
       <div>Header</div>
       <Link href="/">About</Link>
-      <Link href="career">Career</Link>
-      <Link href="/projects">Projects</Link>
+      <Link href="#career">Career</Link>
+      <Link href="/#projects">Projects</Link>
     </main>
   );
 };
