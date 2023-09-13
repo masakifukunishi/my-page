@@ -1,18 +1,10 @@
-const About = () => {
+import AboutMe from "../components/about-me";
+
+const Home = () => {
   return (
-    <main className="">
-      <div>
-        <h2>who am I?</h2>
-        <ul>
-          <li>💡 Software Developer: Client side(React) - Server side(Node, Python) etc...</li>
-          <li>📍 British Columbia, Canada</li>
-          <li>🎥 Fan of Edgar Wright's movies</li>
-        </ul>
-        <a href="https://github.com/masakifukunishi">GitHub</a>
-        <a href="https://www.linkedin.com/in/masaki-fukunishi/">LinkedIn</a>
-        <a href="https://dev.to/masakifukunishi">Dev Community (Articles)</a>
-      </div>
-      <h2>Career</h2>
+    <main className="px-4">
+      <AboutMe />
+      <h2 className="text-3xl font-bold mt-10">Career</h2>
       <h3>Full-Stack Web Developer</h3>
       <div>booost technologies</div>
       <div>November 2020 - September 2022</div>
@@ -59,4 +51,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Home;

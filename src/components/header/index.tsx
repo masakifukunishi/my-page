@@ -1,4 +1,5 @@
 import Link from "next/link";
+
 const Header = () => {
   return (
     <div className="bg-gray-800 h-14 px-4 flex items-center">
