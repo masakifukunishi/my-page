@@ -8,22 +8,24 @@ interface JobExperienceProps {
 
 const JobExperience: React.FC<JobExperienceProps> = ({ title, company, date, subTitles, responsibilities }) => {
   return (
-    <div>
-      <h3>{title}</h3>
-      <div>{company}</div>
-      <div>{date}</div>
-      <ul>
+    <div className="mt-2 mb-8 max-w-4xl">
+      <h3 className="text-xl font-bold">{company}</h3>
+      <div className="flex items-end">
+        <div className="mr-3">{title}</div>
+        <div>{date}</div>
+      </div>
+      <div>
         {subTitles.map((subTitle, subTitleIndex) => (
           <div key={subTitleIndex}>
-            <h4>{subTitle}</h4>
-            <ul>
+            <h4 className="text-lg font-semibold mt-2 mb-1 ">{subTitle}</h4>
+            <ul className="list-disc list-inside mb-5">
               {responsibilities[subTitleIndex].map((responsibility, responsibilityIndex) => (
                 <li key={responsibilityIndex}>{responsibility}</li>
               ))}
             </ul>
           </div>
         ))}
-      </ul>
+      </div>
     </div>
   );
 };
