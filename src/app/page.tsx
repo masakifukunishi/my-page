@@ -3,9 +3,11 @@ import Career from "../components/career";
 
 const Home = () => {
   return (
-    <main className="px-4">
-      <AboutMe />
-      <Career />
+    <main className="flex justify-center">
+      <div className="container px-4 sm:px-8">
+        <AboutMe />
+        <Career />
+      </div>
     </main>
   );
 };
