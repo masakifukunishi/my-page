@@ -3,7 +3,9 @@ import App from "./App";
 const Apps = () => {
   return (
     <div>
-      <h2 className="text-3xl font-bold mb-6">Apps</h2>
+      <h2 id="apps" className="text-3xl font-bold mb-6">
+        Apps
+      </h2>
       <App
         appName="Crypto Chart"
         imagePath="/apps/crypto-chart.png"
