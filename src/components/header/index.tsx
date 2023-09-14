@@ -28,11 +28,11 @@ const Header = () => {
         </div>
       </div>
       {isOpen && (
-        <div className="md:hidden fixed top-0 right-0 w-56 h-full bg-gray-800 flex items-center flex-col px-8 pt-5 bg-header bg-opacity-95">
+        <div className="md:hidden fixed top-0 right-0 w-52 h-full bg-gray-800 flex items-end flex-col pr-8 pt-5 bg-header bg-opacity-95">
           <button onClick={closeMenu} className="ml-auto">
             <Cross />
           </button>
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col items-end">
             <MobileNavigationLink href="#about" menu="About" handleClick={closeMenu} />
             <MobileNavigationLink href="#career" menu="Career" handleClick={closeMenu} />
             <MobileNavigationLink href="#apps" menu="Apps" handleClick={closeMenu} />
