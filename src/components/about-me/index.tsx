@@ -3,8 +3,9 @@ import Socials from "./socials";
 
 const AboutMe = () => {
   return (
-    <>
-      <h2 id="about" className="text-3xl font-bold mt-16">
+    <div className="mt-14">
+      <div className="text-lg">Hi there it's Masaki👋, Thanks for visiting my pesonal page!</div>
+      <h2 id="about" className="text-3xl font-bold mt-6">
         About me
       </h2>
       <ul className="mt-2">
@@ -13,7 +14,7 @@ const AboutMe = () => {
         <Item item="🎥 Fan of Edgar Wright's movies" />
       </ul>
       <Socials />
-    </>
+    </div>
   );
 };
 
