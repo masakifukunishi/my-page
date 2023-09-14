@@ -11,7 +11,7 @@ const Header = () => {
   const closeMenu = () => setIsOpen(false);
 
   return (
-    <header className="fixed top-0 left-0 w-full h-16 px-8 flex items-center bg-header bg-opacity-95">
+    <header className="fixed top-0 left-0 w-full h-16 px-8 flex items-center bg-header bg-opacity-95 sticky">
       <h1 className="text-2xl font-semibold">Masaki Fukunishi</h1>
       <div className="ml-auto">
         <div className="hidden md:flex">
