@@ -8,7 +8,7 @@ interface JobExperienceProps {
 
 const JobExperience: React.FC<JobExperienceProps> = ({ title, company, date, subTitles, responsibilities }) => {
   return (
-    <div className="mt-2 mb-8 max-w-4xl">
+    <div className="mt-2 mb-8">
       <h3 className="text-xl font-bold">{company}</h3>
       <div className="flex items-end">
         <div className="mr-3">{title}</div>
