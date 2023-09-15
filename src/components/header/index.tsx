@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import Link from "next/link";
 
 import HeaderLink from "./HeaderLink";
 import MobileNavigationLink from "./MobileNavigationLink";
@@ -12,9 +13,16 @@ const Header = () => {
   const openMenu = () => setIsOpen(true);
   const closeMenu = () => setIsOpen(false);
 
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+    closeMenu();
+  };
+
   return (
     <header className="fixed top-0 left-0 w-full h-16 px-8 flex items-center bg-header bg-opacity-95 sticky">
-      <h1 className="text-2xl font-semibold">Masaki Fukunishi</h1>
+      <h1 className="text-2xl font-semibold cursor-pointer" onClick={scrollToTop}>
+        Masaki Fukunishi
+      </h1>
       <div className="ml-auto">
         <div className="hidden md:flex">
           <HeaderLink href="#about" menu="About" />
