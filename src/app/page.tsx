@@ -5,7 +5,7 @@ import Apps from "../components/apps";
 const Home = () => {
   return (
     <main className="flex justify-center">
-      <div id="home" className="container px-5 sm:px-16">
+      <div className="container px-5 sm:px-16">
         <AboutMe />
         <Career />
         <Apps />
