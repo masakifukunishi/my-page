@@ -8,6 +8,7 @@ const Socials = () => {
         <SorcialLink href="https://www.linkedin.com/in/masaki-fukunishi/" service="LinkedIn" />
         <SorcialLink href="https://dev.to/masakifukunishi" service="Dev Community (Articles)" />
         <SorcialLink href="https://twitter.com/masakifukunishi" service="X (Japanese)" />
+        <SorcialLink href="mailto:fmsknn@gmail.com " service="Email - fmsknn@gmail.com" />
       </ul>
     </>
   );
