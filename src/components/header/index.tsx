@@ -19,8 +19,8 @@ const Header = () => {
   };
 
   return (
-    <header className="fixed top-0 left-0 w-full h-14 px-6 flex items-center bg-header bg-opacity-95 sticky">
-      <h1 className="text-xl cursor-pointer pl-2" onClick={scrollToTop}>
+    <header className="fixed top-0 left-0 w-full h-16 px-6 flex items-center bg-header bg-opacity-95 sticky">
+      <h1 className="text-2xl cursor-pointer pl-2" onClick={scrollToTop}>
         Masaki Fukunishi
       </h1>
       <div className="ml-auto">
