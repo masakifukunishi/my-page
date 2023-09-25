@@ -15,7 +15,7 @@ const Apps = () => {
       <App
         appName="PWA List"
         imagePath="/apps/pwa-list.png"
-        description={`Web app that lets developers post PWAs and allows users to view them.. \n More than 150 PWAs have been submitted by developers 🙌`}
+        description={`Web app that lets developers post PWAs and users to view them. \n More than 150 PWAs have been submitted by developers 🙌`}
         links={[
           { service: "Live", href: "https://www.pwalist.app" },
           { service: "GitHub", href: "https://github.com/masakifukunishi/pwa-list" },
