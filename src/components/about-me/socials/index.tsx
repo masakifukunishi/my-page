@@ -2,7 +2,7 @@ import SorcialLink from "./SorcialLink";
 const Socials = () => {
   return (
     <>
-      <h3 className="text-2xl font-bold mt-8">Socials</h3>
+      <h3 className="text-xl font-bold mt-8">Socials</h3>
       <ul className="mt-2">
         <SorcialLink href="https://github.com/masakifukunishi" service="GitHub" />
         <SorcialLink href="https://www.linkedin.com/in/masaki-fukunishi/" service="LinkedIn" />
