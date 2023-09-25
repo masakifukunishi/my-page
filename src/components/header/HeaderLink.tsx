@@ -7,7 +7,7 @@ interface HeaderLinkProps {
 
 const HeaderLink: React.FC<HeaderLinkProps> = ({ href, menu }) => {
   return (
-    <Link href={href} className="text-lg font-bold ml-4">
+    <Link href={href} className="text-xl ml-4">
       {menu}
     </Link>
   );
