@@ -11,17 +11,14 @@ const Career = () => {
           title="Full-Stack Web Developer"
           company="booost technologies"
           date="Nov 2020 - Sep 2022"
-          subTitles={[
-            "Web system to support decarbonation and customer management",
-            "Automated solution to enhance sales department operations",
-          ]}
+          subTitles={["Web system to support decarbonation and customer management", "Web scraping to streamline operations"]}
           responsibilities={[
             [
-              "Improved dashboard response speed and enhanced user experience through SQL optimization",
-              "Implemented a feature to calculate and check greenhouse gas emissions for each activity of an organization using Laravel and Vue.js. This feature has been patented",
+              "Improved dashboard response speed by modifying backend logic, optimizing SQL queries, and separating APIs. This has enhanced the user experience as all the charts in the dashboard are displayed about 3 seconds faster",
+              "Implemented a feature to calculate and view greenhouse gas emissions for each of the company's activities using Laravel and Vue.js. This feature has been patented",
             ],
             [
-              "Retrieved data from a website using Selenium, saving text data to a database. Additionally, designeda user-friendly web app using Laravel and Vue.js, enabling the convenient download of the scraped data. This initiative significantly improved team efficiency and data accessibility",
+              "Retrieved electricity-related data from websites using Selenium, saving data to a database. Additionally, created a web system using Laravel and Vue.js to be able to download scraped data. This system has reduced the sales department's work time by more than 10 minutes each day",
             ],
           ]}
         />
@@ -45,9 +42,9 @@ const Career = () => {
           subTitles={["Web system for customer management"]}
           responsibilities={[
             [
-              "Implemented credit card payment and direct debit backend functionality using Paygent's API",
+              "Implemented credit card payment and direct debit backend functionality using Paygent's API with PHP. No errors occurred since the start of the operation, which increased customer trust",
               "Created an API backend in PHP to receive application data from external systems",
-              "Developed a batch process to generate invoices for a substantial volume of data, scheduled to run via Cron at a designated time each day",
+              "Developed batch processing to calculate and create a large number of invoices",
             ],
           ]}
         />
