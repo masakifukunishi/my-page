@@ -14,7 +14,7 @@ const Career = () => {
           subTitles={["Web system to support decarbonation and customer management", "Web scraping to streamline operations"]}
           responsibilities={[
             [
-              "Improved dashboard response speed by modifying backend logic, optimizing SQL queries, and separating APIs. This has enhanced the user experience as all the charts in the dashboard are displayed about 3 seconds faster",
+              "Improved dashboard response speed by modifying backend logic, optimizing SQL queries, and separating APIs. This has enhanced the user experience as all the charts in the dashboard are displayed about 2500 milliseconds faster",
               "Implemented a feature to calculate and view greenhouse gas emissions for each of the company's activities using Laravel and Vue.js. This feature has been patented",
             ],
             [
