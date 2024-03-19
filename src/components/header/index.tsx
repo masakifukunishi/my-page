@@ -1,6 +1,5 @@
 "use client";
 import { useState } from "react";
-import Link from "next/link";
 
 import HeaderLink from "./HeaderLink";
 import MobileNavigationLink from "./MobileNavigationLink";
