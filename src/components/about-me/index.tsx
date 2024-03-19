@@ -9,7 +9,7 @@ const AboutMe = () => {
         About me
       </h2>
       <div className="mt-2">
-        <Item item="💡 Software Developer: Client side(React) - Server side(Node, Python)" />
+        <Item item="💡 Software Developer" />
         <ul className="list-inside ml-4">
           <li className="list-disc mb-1">Client-side (React)</li>
           <li className="list-disc mb-1">Server-side (TypeScript, Python)</li>
