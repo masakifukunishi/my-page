@@ -6,7 +6,7 @@ import Footer from "../components/footer";
 
 export const metadata: Metadata = {
   title: "Masaki Fukunishi",
-  description: "Masaki Fukunishi is a full-stack web developer based in Vancouver, Canada",
+  description: "Masaki Fukunishi is a full-stack web developer based in Japan",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

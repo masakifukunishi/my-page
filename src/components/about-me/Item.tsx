@@ -3,7 +3,7 @@ interface ItemProps {
 }
 
 const Item: React.FC<ItemProps> = ({ item }) => {
-  return <p className="my-1">{item}</p>;
+  return <p className="my-1.5">{item}</p>;
 };
 
 export default Item;
