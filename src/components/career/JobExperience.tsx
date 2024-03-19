@@ -2,11 +2,11 @@ interface JobExperienceProps {
   title: string;
   company: string;
   date: string;
-  subTitles: string[];
-  responsibilities: string[][];
+  subTitles?: string[];
+  responsibilities?: string[][];
 }
 
-const JobExperience: React.FC<JobExperienceProps> = ({ title, company, date, subTitles, responsibilities }) => {
+const JobExperience: React.FC<JobExperienceProps> = ({ title, company, date, subTitles = [], responsibilities = [] }) => {
   return (
     <div className="mt-2 mb-10">
       <h3 className="text-lg font-bold">{company}</h3>
