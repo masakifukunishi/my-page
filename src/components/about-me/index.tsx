@@ -12,7 +12,6 @@ const AboutMe = () => {
         <ul className="list-inside ml-4">
           <li className="list-disc mb-1">Client-side (React)</li>
           <li className="list-disc mb-1">Server-side (TypeScript, Python)</li>
-          <li className="list-disc mb-1">Database (MySQL, MongoDB)</li>
         </ul>
         <Item item="📍 Osaka, Japan" />
         <Item item="🎥 Fan of Edgar Wright's movies" />
