@@ -13,7 +13,7 @@ const AboutMe = () => {
           <li className="list-disc mb-1">Client-side (React)</li>
           <li className="list-disc mb-1">Server-side (TypeScript, Python)</li>
         </ul>
-        <Item item="📍 Osaka, Japan" />
+        <Item item="📍 Tokyo, Japan" />
         <Item item="🎥 Fan of Edgar Wright's movies" />
       </div>
       <Socials />
