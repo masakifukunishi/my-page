@@ -19,10 +19,7 @@ const Apps = () => {
         appName="Crypto Chart"
         imagePath="/apps/crypto-chart.png"
         description={`Crypto Chart is a full-stack MERN app. \n Lets users view candlestick charts of cryptocurrencies for selected asset pairs and periods 📈`}
-        links={[
-          { service: "Demo", href: "https://crypto-chart-1r7g.onrender.com" },
-          { service: "GitHub", href: "https://github.com/masakifukunishi/crypto-chart" },
-        ]}
+        links={[{ service: "GitHub", href: "https://github.com/masakifukunishi/crypto-chart" }]}
       />
       <App
         appName="PWA List"
