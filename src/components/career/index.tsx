@@ -34,7 +34,7 @@ const Career = () => {
           ]}
         />
         <p className="mb-12">
-          See more on
+          See more on&nbsp;
           <a className="text-blue-400" href="https://www.linkedin.com/in/masaki-fukunishi/" target="_blank" rel="noopener noreferrer">
             LinkedIn
           </a>
