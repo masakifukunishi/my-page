@@ -24,8 +24,8 @@ const App: React.FC<AppProps> = ({ appName, imagePath, description, links }) => 
       </div>
       <ul className="mt-2">
         {links.map((link, index) => (
-          <li className="list-disc list-inside mb-0.5">
-            <a key={index} href={link.href} className="text-blue-400">
+          <li key={index} className="list-disc list-inside mb-0.5">
+            <a href={link.href} className="text-blue-400" target="_blank" rel="noopener noreferrer">
               {link.service}
             </a>
           </li>
