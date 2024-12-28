@@ -2,8 +2,8 @@ import JobExperience from "./JobExperience";
 
 const Career = () => {
   return (
-    <>
-      <h2 id="career" className="text-2xl font-bold mt-12">
+    <div className="mt-10">
+      <h2 id="career" className="text-2xl font-bold mb-2">
         Career
       </h2>
       <div className="mt-1">
@@ -40,7 +40,7 @@ const Career = () => {
           </a>
         </p>
       </div>
-    </>
+    </div>
   );
 };
 

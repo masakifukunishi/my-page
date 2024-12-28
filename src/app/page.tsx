@@ -7,8 +7,8 @@ const Home = () => {
     <main className="flex justify-center">
       <div className="container px-5 sm:px-16">
         <AboutMe />
-        <Career />
         <Projects />
+        <Career />
       </div>
     </main>
   );

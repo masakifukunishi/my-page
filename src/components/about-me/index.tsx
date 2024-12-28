@@ -4,7 +4,7 @@ import Socials from "./socials";
 const AboutMe = () => {
   return (
     <div className="mt-14">
-      <h2 id="about" className="text-2xl font-bold mt-4">
+      <h2 id="about" className="text-2xl font-bold mb-2">
         About me
       </h2>
       <div className="mt-2">

@@ -2,7 +2,7 @@ import Project from "./Project";
 
 const Projects = () => {
   return (
-    <div>
+    <div className="mt-10">
       <h2 id="projects" className="text-2xl font-bold mb-2">
         Projects
       </h2>
