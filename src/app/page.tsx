@@ -1,6 +1,6 @@
 import AboutMe from "../components/about-me";
 import Career from "../components/career";
-import Apps from "../components/apps";
+import Projects from "../components/projects";
 
 const Home = () => {
   return (
@@ -8,7 +8,7 @@ const Home = () => {
       <div className="container px-5 sm:px-16">
         <AboutMe />
         <Career />
-        <Apps />
+        <Projects />
       </div>
     </main>
   );

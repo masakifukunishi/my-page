@@ -26,7 +26,7 @@ const Header = () => {
         <div className="hidden md:flex">
           <HeaderLink href="#about" menu="About" />
           <HeaderLink href="#career" menu="Career" />
-          <HeaderLink href="#apps" menu="Apps" />
+          <HeaderLink href="#projects" menu="Projects" />
         </div>
         <div className="md:hidden flex items-center">
           <button onClick={openMenu}>
@@ -42,7 +42,7 @@ const Header = () => {
           <div className="flex flex-col mr-auto pl-7">
             <MobileNavigationLink href="#about" menu="About" handleClick={closeMenu} />
             <MobileNavigationLink href="#career" menu="Career" handleClick={closeMenu} />
-            <MobileNavigationLink href="#apps" menu="Apps" handleClick={closeMenu} />
+            <MobileNavigationLink href="#projects" menu="Projects" handleClick={closeMenu} />
           </div>
         </div>
       )}

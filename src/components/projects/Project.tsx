@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-interface AppProps {
+interface ProjectProps {
   appName: string;
   imagePath: string;
   description: string;
@@ -10,7 +10,7 @@ interface AppProps {
   }[];
 }
 
-const App: React.FC<AppProps> = ({ appName, imagePath, description, links }) => {
+const Project: React.FC<ProjectProps> = ({ appName, imagePath, description, links }) => {
   return (
     <div className="mb-12">
       <h3 className="text-lg font-bold mb-2 mt-2">{appName}</h3>
@@ -35,4 +35,4 @@ const App: React.FC<AppProps> = ({ appName, imagePath, description, links }) => 
   );
 };
 
-export default App;
+export default Project;
