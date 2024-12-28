@@ -8,7 +8,7 @@ interface MobileNavigationLinkProps {
 
 const MobileNavigationLink: React.FC<MobileNavigationLinkProps> = ({ href, menu, handleClick }) => {
   return (
-    <Link href={href} className="text-xl mt-3" onClick={handleClick}>
+    <Link href={href} className="text-xl font-semibold mt-3" onClick={handleClick}>
       {menu}
     </Link>
   );

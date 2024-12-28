@@ -19,14 +19,14 @@ const Header = () => {
 
   return (
     <header className="fixed top-0 left-0 w-full h-16 px-6 flex items-center bg-header bg-opacity-95 sticky">
-      <h1 className="text-xl cursor-pointer  md:pl-2" onClick={scrollToTop}>
+      <h1 className="text-xl cursor-pointer md:pl-2" onClick={scrollToTop}>
         Masaki Fukunishi
       </h1>
       <div className="ml-auto">
         <div className="hidden md:flex">
           <HeaderLink href="#about" menu="About" />
+          <HeaderLink href="#projects" menu="Projects" />
           <HeaderLink href="#career" menu="Career" />
-          <HeaderLink href="#apps" menu="Apps" />
         </div>
         <div className="md:hidden flex items-center">
           <button onClick={openMenu}>
@@ -41,8 +41,8 @@ const Header = () => {
           </button>
           <div className="flex flex-col mr-auto pl-7">
             <MobileNavigationLink href="#about" menu="About" handleClick={closeMenu} />
+            <MobileNavigationLink href="#projects" menu="Projects" handleClick={closeMenu} />
             <MobileNavigationLink href="#career" menu="Career" handleClick={closeMenu} />
-            <MobileNavigationLink href="#apps" menu="Apps" handleClick={closeMenu} />
           </div>
         </div>
       )}

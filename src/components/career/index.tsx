@@ -2,8 +2,8 @@ import JobExperience from "./JobExperience";
 
 const Career = () => {
   return (
-    <>
-      <h2 id="career" className="text-2xl font-bold mt-12">
+    <div className="mt-10">
+      <h2 id="career" className="text-2xl font-bold mb-2">
         Career
       </h2>
       <div className="mt-1">
@@ -24,15 +24,6 @@ const Career = () => {
           ]}
         />
         <JobExperience
-          title="Full-Stack Web Developer"
-          company="Self-employed"
-          date="Jul 2020 - Oct 2020"
-          responsibilities={[
-            "Created a message sending and receiving feature for a job recruitment site",
-            "Set up the environment and developed a scraping system",
-          ]}
-        />
-        <JobExperience
           title="Backend Developer"
           company="Threet"
           date="Feb 2018 - Jun 2020"
@@ -43,13 +34,13 @@ const Career = () => {
           ]}
         />
         <p className="mb-12">
-          See more on{" "}
-          <a className="text-blue-400" href="https://www.linkedin.com/in/masaki-fukunishi/">
+          See more on&nbsp;
+          <a className="text-blue-400" href="https://www.linkedin.com/in/masaki-fukunishi/" target="_blank" rel="noopener noreferrer">
             LinkedIn
           </a>
         </p>
       </div>
-    </>
+    </div>
   );
 };
 

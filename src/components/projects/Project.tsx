@@ -1,8 +1,8 @@
 import Image from "next/image";
 
-interface AppProps {
+interface ProjectProps {
   appName: string;
-  imagePath: string;
+  imagePath?: string;
   description: string;
   links: {
     service: string;
@@ -10,11 +10,11 @@ interface AppProps {
   }[];
 }
 
-const App: React.FC<AppProps> = ({ appName, imagePath, description, links }) => {
+const Project: React.FC<ProjectProps> = ({ appName, imagePath, description, links }) => {
   return (
     <div className="mb-12">
       <h3 className="text-lg font-bold mb-2 mt-2">{appName}</h3>
-      <Image src={imagePath} width={768} height={768} alt={`Screenshot of ${appName}`} />
+      {imagePath && <Image src={imagePath} width={768} height={768} alt={`Screenshot of ${appName}`} />}
       <div className="mt-3">
         {description.split("\n").map((line, index) => (
           <p key={index} className="mb-0.5">
@@ -24,8 +24,8 @@ const App: React.FC<AppProps> = ({ appName, imagePath, description, links }) => 
       </div>
       <ul className="mt-2">
         {links.map((link, index) => (
-          <li className="list-disc list-inside mb-0.5">
-            <a key={index} href={link.href} className="text-blue-400">
+          <li key={index} className="list-disc list-inside mb-0.5">
+            <a href={link.href} className="text-blue-400" target="_blank" rel="noopener noreferrer">
               {link.service}
             </a>
           </li>
@@ -35,4 +35,4 @@ const App: React.FC<AppProps> = ({ appName, imagePath, description, links }) => 
   );
 };
 
-export default App;
+export default Project;
