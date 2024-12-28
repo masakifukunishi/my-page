@@ -7,6 +7,11 @@ const Projects = () => {
         Projects
       </h2>
       <Project
+        appName="Blog service with DDD (Sample Project)"
+        description={`Demonstrating the implementation of a blog service using Domain-Driven Design (DDD) and Layered Architecture principles. \n Docker, TypeScript, Node.js, Express, Prisma, SQLite, Vitest, ESLint, Prettier, GitHub Actions (CI)`}
+        links={[{ service: "GitHub", href: "https://github.com/masakifukunishi/ddd-blog-api" }]}
+      />
+      <Project
         appName="NFT Craft"
         imagePath="/projects/nft-craft.png"
         description={`Web app that allows users to mint NFTs (ERC-721 tokens) and view them.`}
