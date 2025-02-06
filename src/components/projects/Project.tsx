@@ -14,7 +14,7 @@ const Project: React.FC<ProjectProps> = ({ appName, imagePath, description, link
   return (
     <div className="mb-12">
       <h3 className="text-lg font-bold mb-2 mt-2">{appName}</h3>
-      {imagePath && <Image src={imagePath} width={768} height={768} alt={`Screenshot of ${appName}`} />}
+      {imagePath && <Image src={imagePath} width={650} height={650} alt={`Screenshot of ${appName}`} />}
       <div className="mt-3">
         {description.split("\n").map((line, index) => (
           <p key={index} className="mb-0.5">
