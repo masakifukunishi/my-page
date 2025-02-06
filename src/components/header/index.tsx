@@ -13,8 +13,8 @@ const Header = () => {
   const closeMenu = () => setIsOpen(false);
 
   return (
-    <header className="fixed top-0 left-0 w-full h-16 bg-header bg-gray-800 bg-opacity-95 sticky">
-      <div className="max-w-3xl mx-auto px-2 h-full flex items-center">
+    <header className="fixed top-0 left-0 w-full h-14 sticky bg-background bg-opacity-60 px-10 md:px-8 text-gray-100 backdrop-blur-sm">
+      <div className="max-w-3xl mx-auto h-full flex items-center">
         <div className="ml-auto">
           <div className="hidden md:flex">
             <HeaderLink href="#about" menu="About" />
@@ -28,8 +28,8 @@ const Header = () => {
           </div>
         </div>
         {isOpen && (
-          <div className="md:hidden fixed top-0 right-0 w-52 h-full bg-gray-800 flex items-end flex-col pt-5 bg-header bg-opacity-95">
-            <button onClick={closeMenu} className="ml-auto pr-6">
+          <div className="md:hidden fixed top-0 right-0 w-52 h-full flex items-end flex-col pt-5 bg-background bg-opacity-30 backdrop-blur-sm">
+            <button onClick={closeMenu} className="px-10 md:px-8">
               <Cross />
             </button>
             <div className="flex flex-col mr-auto pl-7">

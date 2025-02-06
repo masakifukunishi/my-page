@@ -3,7 +3,7 @@ import JobExperience from "./JobExperience";
 const Career = () => {
   return (
     <div className="mt-10">
-      <h2 id="career" className="text-3xl font-bold mb-4">
+      <h2 id="career" className="text-3xl font-semibold mb-4">
         Career
       </h2>
       <div className="mt-1">
