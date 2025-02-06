@@ -2,16 +2,14 @@ import AboutMe from "../components/about-me";
 import Career from "../components/career";
 import Projects from "../components/projects";
 
-const Home = () => {
+export default function Home() {
   return (
-    <main className="flex justify-center">
-      <div className="container px-5 sm:px-16">
+    <main className="flex min-h-screen flex-col items-center p-10 md:p-8">
+      <div className="w-full max-w-4xl">
         <AboutMe />
         <Projects />
         <Career />
       </div>
     </main>
   );
-};
-
-export default Home;
+}
