@@ -10,7 +10,7 @@ const Career = () => {
         <JobExperience
           title="Full-Stack Web Developer"
           company="HashHub"
-          date="Jan 2024 - Present"
+          date="Jan 2024 - Apr 2025"
           responsibilities={["Working on a cryptocurrency lending service and blockchain research media"]}
         />
         <JobExperience
