@@ -15,7 +15,7 @@ const Career = () => {
         />
         <JobExperience
           title="Full-Stack Web Developer"
-          company="booost technologies"
+          company="booost"
           date="Nov 2020 - Sep 2022"
           responsibilities={[
             "Worked on web system to support decarbonation",
