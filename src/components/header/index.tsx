@@ -19,7 +19,6 @@ const Header = () => {
           <div className="hidden md:flex">
             <HeaderLink href="#about" menu="About" />
             <HeaderLink href="#projects" menu="Projects" />
-            <HeaderLink href="#career" menu="Career" />
           </div>
           <div className="md:hidden flex items-center">
             <button onClick={openMenu}>
@@ -35,7 +34,6 @@ const Header = () => {
             <div className="flex flex-col mr-auto pl-7">
               <MobileNavigationLink href="#about" menu="About" handleClick={closeMenu} />
               <MobileNavigationLink href="#projects" menu="Projects" handleClick={closeMenu} />
-              <MobileNavigationLink href="#career" menu="Career" handleClick={closeMenu} />
             </div>
           </div>
         )}
