@@ -1,5 +1,4 @@
 import AboutMe from "../components/about-me";
-import Career from "../components/career";
 import Projects from "../components/projects";
 
 export default function Home() {
@@ -8,7 +7,6 @@ export default function Home() {
       <div className="w-full max-w-4xl">
         <AboutMe />
         <Projects />
-        <Career />
       </div>
     </main>
   );
