@@ -5,6 +5,7 @@ interface ProjectProps {
   links: {
     service: string;
     href: string;
+    isStrikethrough?: boolean;
   }[];
 }
 
@@ -24,7 +25,12 @@ const Project: React.FC<ProjectProps> = ({ appName, imagePath, description, link
       <ul className="mt-2">
         {links.map((link, index) => (
           <li key={index} className="list-disc list-inside mb-0.5">
-            <a href={link.href} className="text-blue-400" target="_blank" rel="noopener noreferrer">
+            <a
+              href={link.isStrikethrough ? undefined : link.href}
+              className={`text-blue-400 ${link.isStrikethrough ? "line-through pointer-events-none" : ""}`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               {link.service}
             </a>
           </li>

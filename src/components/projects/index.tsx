@@ -29,8 +29,8 @@ const Projects = () => {
       <Project
         appName="PWA List"
         imagePath="/projects/pwa-list.png"
-        description={`Web app that lets developers post PWA and users view them. \n More than 200 PWA have been submitted by developers!`}
-        links={[{ service: "App", href: "https://www.pwalist.app" }]}
+        description={`Web app that lets developers post PWA and users view them. \n More than 300 PWA have been submitted by developers!`}
+        links={[{ service: "App", href: "https://www.pwalist.app", isStrikethrough: true }]}
       />
     </div>
   );
