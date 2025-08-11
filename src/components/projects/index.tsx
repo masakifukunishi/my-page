@@ -7,6 +7,15 @@ const Projects = () => {
         Projects
       </h2>
       <Project
+        appName="RelaxCast"
+        imagePath="/projects/relaxcast.png"
+        description={`Internet radio streaming service powered by Icecast2 and Liquidsoap, all containerized using Docker`}
+        links={[
+          { service: "GitHub（client）", href: "https://github.com/masakifukunishi/relaxcast-client" },
+          { service: "GitHub（streaming server）", href: "https://github.com/masakifukunishi/relaxcast-streaming" },
+        ]}
+      />
+      <Project
         appName="Blog service with DDD (Sample Project)"
         description={`Demonstrating the implementation of a blog service using Domain-Driven Design (DDD) and Layered Architecture principles. \n Docker, TypeScript, Node.js, Express, Prisma, SQLite, Vitest, ESLint, Prettier, GitHub Actions (CI)`}
         links={[{ service: "GitHub", href: "https://github.com/masakifukunishi/ddd-blog-api" }]}
