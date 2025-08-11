@@ -14,7 +14,7 @@ const Project: React.FC<ProjectProps> = ({ appName, imagePath, description, link
     <div className="mb-12">
       <h3 className="text-lg font-bold mb-2 mt-2">{appName}</h3>
       {/* Since I'm on the free plan, I'm not using next/image */}
-      {imagePath && <img src={imagePath} width={650} height={650} alt={`Screenshot of ${appName}`} />}
+      {imagePath && <img className="rounded-md" src={imagePath} width={650} height={650} alt={`Screenshot of ${appName}`} />}
       <div className="mt-3">
         {description.split("\n").map((line, index) => (
           <p key={index} className="mb-0.5">
