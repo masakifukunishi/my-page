@@ -11,8 +11,8 @@ const Projects = () => {
         imagePath="/projects/relaxcast.png"
         description={`Internet radio streaming service powered by Icecast2 and Liquidsoap, all containerized using Docker`}
         links={[
-          { service: "GitHub（client）", href: "https://github.com/masakifukunishi/relaxcast-client" },
-          { service: "GitHub（streaming server）", href: "https://github.com/masakifukunishi/relaxcast-streaming" },
+          { service: "GitHub (client)", href: "https://github.com/masakifukunishi/relaxcast-client" },
+          { service: "GitHub (streaming server)", href: "https://github.com/masakifukunishi/relaxcast-streaming" },
         ]}
       />
       <Project
