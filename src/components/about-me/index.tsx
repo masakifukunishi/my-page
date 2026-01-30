@@ -19,7 +19,6 @@ const AboutMe = () => {
           <li className="list-disc mb-1">Design : Figma</li>
         </ul>
         <Item item="📍 Tokyo, Japan" />
-        <Item item="🎥 Fan of Edgar Wright's movies" />
       </div>
       <Socials />
     </div>
