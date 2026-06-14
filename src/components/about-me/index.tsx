@@ -4,7 +4,7 @@ import Socials from "./socials";
 const AboutMe = () => {
   return (
     <div className="mt-12">
-      <h1 className="text-3xl mb-6">Masaki Fukunishi（福西 将記）</h1>
+      <h1 className="text-2xl md:text-3xl font-semibold mb-6">Masaki Fukunishi（福西 将記）</h1>
       <h2 id="about" className="text-2xl font-semibold mb-4">
         About me
       </h2>
