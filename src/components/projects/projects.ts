@@ -58,7 +58,7 @@ export const projects: ProjectItem[] = [
     appName: "PWA List",
     imagePath: "/projects/pwa-list.png",
     description: {
-      ja: `開発者がPWAを投稿し、ユーザーがそれを見つけられるWebアプリです。 \n 300以上のPWAを投稿していただけました！`,
+      ja: `開発者がPWAを投稿し、ユーザーがそれらを見つけられるWebアプリです。 \n 300以上のPWAを投稿していただけました！`,
       en: `A web app that lets developers submit PWAs and users discover them. \n More than 300 PWAs have been submitted!`,
     },
     links: [{ service: "App", href: "https://www.pwalist.app", isStrikethrough: true }],
